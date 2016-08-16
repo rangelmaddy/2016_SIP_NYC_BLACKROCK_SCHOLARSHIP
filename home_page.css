@@ -1,0 +1,91 @@
+body {background-color: white}
+
+
+div.jumbotron {
+   width: 100%; 
+   background-image:url(background_home.jpg);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";} 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black
+    text-align: center;
+   font-family: "Verdana",monospace;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+    opacity: 0.2
+}
+
+
+h1 {
+    color: white;
+    font-size: 500;
+    font-family: "Verdana",monospace;
+    text-align: center; 
+    top: 50%; bottom: 50%; width: 100%;
+
+}
+h2{ color: white;
+    font-size: 500;
+    font-family: "Verdana",monospace;
+    text-align: center; 
+    top: 50%; bottom: 50%; width: 100%;
+}
+h3 {
+    color: dark gray;
+    font-size: 100;
+    text-align: center; 
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%; 
+
+}
+
+h4 {
+    color: dark gray;
+    font-size: 100;
+    text-align: center; 
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%; 
+
+}
+h5{
+    color: dark gray;
+    font-size: 100;
+    text-align: left; 
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%; 
+}
+h6 {color: dark gray;
+    font-size: 200;
+    text-align: left; 
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%; }
+p {
+    color: dark gray;
+    font-size: 100;
+    text-align: left;
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%; 
+
+}
