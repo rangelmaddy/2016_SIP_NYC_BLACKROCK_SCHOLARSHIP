@@ -1,35 +1,49 @@
-h3.questions {
-    margin-left: 50px;
-    font-size:20px;
-    font-family:font-family: "Verdana",monospace;
-    font-style:normal;
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-}
-p.answers {
-    margin-left: 100px;
-    font-size:15px;
-    font-family:font-family: "Verdana",monospace;
-    font-style:normal;
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-}
+
 h2.sections {
     margin-left: 25px;
     font-size:25px;
-    font-family:font-family: "Verdana",monospace;
+    font-family: Century Gothic, sans-serif;
     font-style:normal
 }
 head {
     font-size:40px;
-    font-family: font-family: "Verdana",monospace;
+    font-family: Century Gothic, sans-serif;
     font-style: normal;
 }
 li.points {
-    margin-left: 100px;
+    margin-left: 50px;
     font-size:15px;
-    font-family:font-family: "Verdana",monospace;
+    font-family: Century Gothic, sans-serif;
     font-style:normal
 }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+    opacity: 0.2
+}
+#container1111 {
+    margin-left:30px;
+}
+
