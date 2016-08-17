@@ -14,14 +14,23 @@ li a {
 	display: block;
 	color: black;
 	text-align: center;
-    font-family: "Verdana",monospace;
-    padding: 14px 16px;
+    padding: 25px 50px;
+    font-size: 16px;
     text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+p{
+ font-size:20px;
+ letter-spacing: 2px;
+
+
 }
 
 li a:hover {
-	background-color: gray;
-	opacity: 0.2
+	background-color: white;
+	opacity: 0.1
 }
 #picture {
       width: 300px;
@@ -56,11 +65,11 @@ li a:hover {
         font-family: Arial;       
         font-weight: normal;
         text-align:center;
-        color: #FFF;       
+        color: #000000;
                      }
 #picture:hover .text_display {
-         background: rgba(0, 0, 0, 0.5);   
-         color: #fff;   
+         background: rgba(0, 0, 0, 0);   
+         color: #000000;   
          height:200px;   
                       }
 
