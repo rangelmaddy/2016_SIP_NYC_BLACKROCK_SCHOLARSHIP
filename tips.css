@@ -2,18 +2,18 @@
 h2.sections {
     margin-left: 25px;
     font-size:25px;
-    font-family:font-family: "Verdana",monospace;
+    font-family: Century Gothic, sans-serif;
     font-style:normal
 }
 head {
     font-size:40px;
-    font-family: font-family: "Verdana",monospace;
+    font-family: Century Gothic, sans-serif;
     font-style: normal;
 }
 li.points {
     margin-left: 50px;
     font-size:15px;
-    font-family:font-family: "Verdana",monospace;
+    font-family: Century Gothic, sans-serif;
     font-style:normal
 }
     ul {
@@ -28,11 +28,13 @@ li {
     float: left;
 }
 
+
+
 li a {
     display: block;
     color: black;
     text-align: center;
-    font-family: "Verdana",monospace;
+    font-family: Century Gothic, sans-serif;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -41,19 +43,7 @@ li a:hover {
     background-color: gray;
     opacity: 0.2
 }
-.container-fluid {
-    margin-bottom: 45px;
-}
 #container1111 {
     margin-left:30px;
 }
 
-.sections{
-    float: left;
-    width: 300px;
-    height: 400px;
-    margin: 20px;
-    border: 3px solid #73AD21; 
-    border-color:black;
-    border-radius:25px;
-}
