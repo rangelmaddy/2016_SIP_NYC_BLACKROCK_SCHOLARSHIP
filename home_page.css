@@ -3,7 +3,7 @@ body {background-color: white}
 
 div.jumbotron {
    width: 100%; 
-   background-image:url(background_home.jpg);/*your background image*/  
+   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/  
    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
    /*css hack for ie*/     
