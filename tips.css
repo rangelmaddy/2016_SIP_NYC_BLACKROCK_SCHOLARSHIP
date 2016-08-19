@@ -70,8 +70,15 @@ h2 {
       margin-bottom: 30px;
      
 }
-.col-lg-4 {
-    float:left
+#video_text {
+    margin-right: 20cm;
+    margin-left:2cm;
+    
+}
+#video {
+    margin-left: 10cm;
+    margin-right:5cm;
+    margin-top:1cm;
 }
 
     
