@@ -4,10 +4,20 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: white;
+    text-align: left;
+    font-size: 14px;
 }
 
-li {
+ li {
 	float: left;
+    text-align: left;
+   letter-spacing: 2px
+} 
+div.row{
+    text-align:center;
+    font-size: 14px;
+
+
 }
 
 li a {
@@ -15,10 +25,11 @@ li a {
 	color: black;
 	text-align: center;
     padding: 25px 50px;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: bold;
+    
 }
 
 p{
@@ -30,7 +41,7 @@ p{
 
 li a:hover {
 	background-color: white;
-	opacity: 0.1
+	opacity: 0.1;
 }
 #picture {
       width: 300px;
@@ -66,10 +77,22 @@ li a:hover {
         font-weight: normal;
         text-align:center;
         color: #000000;
-                     }
+        
+
+
+            }
 #picture:hover .text_display {
          background: rgba(0, 0, 0, 0);   
          color: #000000;   
-         height:200px;   
+         height:200px;
+         display: 
+         
                       }
+h3 {
+    font-size: 45px;
+    letter-spacing:3px;
+    text-align: center;
+
+}
+
 
