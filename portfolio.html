@@ -10,12 +10,41 @@
   
   
   <style>
+<!------------------------------------------->
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #FFFFFF;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF ;
+  }  
+ th {
+    background-color: #696969;
+    color: white;
+}
+
+<!------------------------------------------->
   body {background-color: white}
 
+  
+h1 {
+    font-weight: bold;
+}
 
 div.jumbotron {
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   color: white;
    width: 100%; 
-   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/  
+   height: 575px;
+   background-image:url(http://bit.ly/2bGOVmX) ;/*your background image*/  
    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
    /*css hack for ie*/     
@@ -23,34 +52,37 @@ div.jumbotron {
    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";} 
    
 div.MyProfile {
-   width: 100%; 
-   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/  
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   /*css hack for ie*/     
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";} 
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    height: 500px;
+    width: 100%;
+    background-color: #8AB8DB ;
+} 
 
 div.InProgress {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   height: 500px;
    width: 100%; 
-   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/  
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   /*css hack for ie*/     
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";} 
+   background-color: #68A1D9;
+   } 
 
 
 div.Completed {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    height: 500px;
    width: 100%; 
-   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/  
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   /*css hack for ie*/     
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";} 
+   background-color:  #5EA3A7;
+   } 
 
+div.College {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    height: 500px;
+   width: 100%; 
+    background-color: #2D8C7D;;
+   } 
 
+div.form-group{
+    text-align: left;
+}
 
 ul {
     list-style-type: none;
@@ -70,7 +102,7 @@ li a {
     display: block;
     color: black
     text-align: center;
-   font-family: "Verdana",monospace;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -94,16 +126,15 @@ li a:hover {
 <!---------------------------------------------------------------------------------------------------------->
     <div class="jumbotron">
       <div class="container text-center">
-        <h1>My ScholarshipProfile</h1>      
-        <p>Some text that represents "Me"...</p>
+        <h1>My Profile</h1>      
+        <p>Keep Track of Your Sh*t</p>
       </div>
     </div>
 <!---------------------------------------------------------------------------------------------------------->
 
     <div class="MyProfile">
     <div class="container text-center">
-    <h1>My Profile</h1>      
-    <p>Some text that represents "Me"...</p>
+    <h1>My Information</h1>      
     <div class="panel-group">
     <div class="panel panel-default">
     <div class="panel-heading">
@@ -217,6 +248,7 @@ li a:hover {
     </div>
     </div> 
     </ul>
+
 </div>
 </div>
 </div>    
@@ -224,6 +256,11 @@ li a:hover {
 </div>
    
 <!---------------------------------------------------------------------------------------------------------->
+<br>
+<br>
+<br>
+
+<!------------------------------------------------------------------------------------------->
     <div class="InProgress">
     <div class="container text-center">
     <h1>In Progress</h1>      
@@ -270,12 +307,111 @@ li a:hover {
     </div>
     </div>
  <!---------------------------------------------------------------------------------------------------------->
+<br>
+<br>
+<br>
+
+<!------------------------------------------------------------------------------------------->
      <div class="Completed">
      <div class="container text-center">
         <h1>Completed</h1>      
         <p>Some text that represents "Me"...</p>
      </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <table style="width:100%">
+  <tr>
+    <th>Scholarship</th>
+    <th>Due Date</th> 
+
+  </tr>
+  <tr>
+    <td>Gates Millineum</td>
+    <td>9/14/16</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>4/5/16</td>
+
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>7/15?16</td>
+  </tr>
+    <tr>
+    <td>Example</td>
+    <td>xx/xx/xx</td>
+  </tr>
+</table>
      </div>
+<!---------------------------------------------------------------------------------------------------------->
+<br>
+<br>
+<br>
+
+<!------------------------------------------------------------------------------------------->
+ <div class="College">
+    <div class="container text-center">
+    <h1>My Profile</h1>      
+    <p>Some text that represents "Me"...</p>
+    <div class="panel-group">
+    <div class="panel panel-default">
+    <div class="panel-heading">
+    <h4 class="panel-title">
+        <a data-toggle="collapse" href="#college">My Information</a>
+    </h4>
+    </div>
+    <div id="college" class="panel-collapse collapse">
+    <ul class="list-group">
+<!----------------------------------------------------------->
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="college">College</label>  
+  <div class="col-md-4">
+  <input id="college" name="college" placeholder="" class="form-control input-md" type="text">
+    
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<br>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="requirements">Requirements</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="requirements-0">
+      <input name="requirements" id="requirements-0" value="1" type="checkbox">
+      Essay
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="requirements-1">
+      <input name="requirements" id="requirements-1" value="2" type="checkbox">
+      Recommendation Letter
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="requirements-2">
+      <input name="requirements" id="requirements-2" value="3" type="checkbox">
+      Transcript
+    </label>
+	</div>
+  </div>
+</div>
+</br>
+
+<!----------------------------------------------------------->
+</ul>
+</div>
+</div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
 <!---------------------------------------------------------------------------------------------------------->
 </body>
 </html>
