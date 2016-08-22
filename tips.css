@@ -43,8 +43,10 @@ li a:hover {
     opacity: 0.2
 }
 #container1111 {
-    margin-left: 210px;
-    margin-right: 190px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Century Gothic, sans-serif;
+    font-size: 20px;
 }
 .mylist {
     width: 30em;
@@ -59,7 +61,6 @@ li a:hover {
 
 h2 {
       font-size: 20px;
-      text-transform: uppercase;
       color: #303030;
       font-weight: 600;
       margin-bottom: 30px;
@@ -69,8 +70,8 @@ h2 {
 {
     clear: both;
     border: 1px groove #e6f2ff;
-    background: #e6f2ff;
-    color: White;
+    background: white;
+    color: black;
     padding: 0;
     text-align: center;
     vertical-align: middle;
@@ -80,3 +81,38 @@ h2 {
     bottom: 0px;
     width: 100%;
 }
+#chart_section {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    background-color:#e6f3ff;
+}
+ #questionask {
+     background-color:#ccffcc;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ }   
+ #scholarvid {
+     background-color:#e6ccff;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ }  
+#innervid {
+     background-color:#e6ccff;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ } 
+ #play {
+     margin-left:210px;
+     margin-right: 30px;
+ }   
+ #quest {
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size: 20px;
+ }   
+ #main_photo {
+   width: 100%;
+   height: 575px;
+   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+   /*css hack for ie*/
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+   }
