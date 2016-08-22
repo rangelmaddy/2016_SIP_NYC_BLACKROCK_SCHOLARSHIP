@@ -1,0 +1,143 @@
+body {background-color: white}
+
+
+div.jumbotron {
+   width: 100%;
+   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+   /*css hack for ie*/
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+    opacity: 0.2
+}
+
+
+h1 {
+    color: white;
+    font-size: 500;
+    font-family: "Verdana",monospace;
+    text-align: center;
+    top: 50%; bottom: 50%; width: 100%;
+
+}
+h2{ color: white;
+    font-size: 500;
+    font-family: "Verdana",monospace;
+    text-align: center;
+    top: 50%; bottom: 50%; width: 100%;
+}
+h3 {
+    color: dark gray;
+    font-size: 100;
+    text-align: center;
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%;
+
+}
+
+h4 {
+    color: dark gray;
+    font-size: 100;
+    text-align: center;
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%;
+
+}
+h5{
+    color: dark gray;
+    font-size: 100;
+    text-align: left;
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%;
+}
+h6 {color: dark gray;
+    font-size: 200;
+    text-align: left;
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%; }
+p {
+    color: dark gray;
+    font-size: 100;
+    text-align: left;
+    font-family: "Verdana", monospace;
+    top: 50%; bottom: 50%; width: 100%;
+
+}
+
+
+
+
+.servicesinfo {
+  opacity: 0;
+  visibility: hidden;
+}
+.personfin:hover + .servicesinfo {
+  opacity: 1;
+  visibility: visible;
+}
+
+#goals1 {
+  font-size: 100;
+  text-align: left;
+  font-family: "Verdana", monospace;
+  color:black;
+  margin:30px;
+}
+
+#footer
+{
+    clear: both;
+    border: 1px groove #e6f2ff;
+    background: white;
+    color: black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+#carousel-example-generic {
+  margin-left:90px;
+  margin-right: 90px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  min-height: 360px;
+  min-width: 460; /* Set slide height here */
+
+}
+#brand {
+    text-align:center;
+}    
