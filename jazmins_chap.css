@@ -1,0 +1,116 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+ul.nav nav-tabs {
+    
+}
+
+li {
+	float: left;
+}
+
+div.jumbotron {
+   width: 100%;
+   height: 575px;
+   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+   }
+
+#haha {
+    color:black;
+    font-family: "Courier New", Courier, monospace;
+}   
+
+
+li a {
+    font-family: "Courier New", Courier, monospace;
+	display: block;
+	text-align: center;
+    padding: 25px 50px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+li.websites {
+    color:black;
+}
+
+li.tabs {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    color:black;
+}
+
+h1.first_title{
+color: black;
+font-family: "Courier New", Courier, monospace;
+ font-size:56px;
+ letter-spacing: 4px;
+    font-weight: 200;
+}
+
+
+p{
+ font-size:20px;
+ letter-spacing: 2px;
+}
+
+p.footer{
+ font-size:12px;
+}
+
+li a:hover {
+	background-color: white;
+	opacity: 0;
+}
+#picture {
+      width: 300px;
+      height: 200px;
+      background: url("picture") no-repeat;
+      background-size: 300px 200px;
+      border: 10px solid #fff;
+      position: relative;    
+           
+               }
+.pic_transform {
+        transition-duration: 0.5s;            
+        -webkit-transition-duration: 0.5s; 
+        -moz-transition-duration: 0.5s;    
+        -o-transition-duration: 0.5s;
+         overflow: hidden;
+         height: 0px;
+                         }
+#picture:hover .pic_transform {
+          height: 150px;
+                          }
+.text_display {
+        transform-origin: picture;               
+        transition-duration: 0.5s;               
+        -webkit-transform-origin: picture;       
+        -webkit-transition-duration: 0.5s;   
+        -moz-transform-origin: picture;           
+        -moz-transition-duration: 0.5s;       
+        -o-transform-origin: picture;    
+        -o-transition-duration: 0.5s;
+        font-size: 16px;
+        font-family: Arial;       
+        font-weight: normal;
+        text-align:center;
+        color: #000000;
+                     }
+#picture:hover .text_display {
+         background: rgba(0, 0, 0, 0);   
+         color: #000000;   
+         height:200px;   
+                      }
+
