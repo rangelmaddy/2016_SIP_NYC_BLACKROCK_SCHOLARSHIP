@@ -116,3 +116,15 @@ h2 {
    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
    }
+#nav_size {
+    font-size: 21px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#tips_title {
+    font-size: 20000 px;
+    color: white;
+}
+#title_info {
+    font-size: 60 px;
+    color: white;
+}
