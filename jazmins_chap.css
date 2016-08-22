@@ -1,59 +1,55 @@
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: white;
-}
+body {background-color: white}
 
-ul.nav nav-tabs {
-    
-}
-
-li {
-	float: left;
-}
 
 div.jumbotron {
    width: 100%;
    height: 575px;
-   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/  
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   /*css hack for ie*/     
+   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+   /*css hack for ie*/
    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
-   }
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";}
 
-#haha {
-    color:black;
-    font-family: "Courier New", Courier, monospace;
-}   
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
 
 li a {
-    font-family: "Courier New", Courier, monospace;
-	display: block;
-	text-align: center;
-    padding: 25px 50px;
-    font-size: 20px;
+    display: block;
+    color: black;
+    text-align: center;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 14px 16px;
     text-decoration: none;
-    letter-spacing: 2px;
 }
+
+li a:hover {
+    background-color: gray;
+    opacity: 0.2
+}
+
+
 
 li.websites {
     color:black;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
 }
 
-li.tabs {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 20px;
-    color:black;
-}
 
 h1.first_title{
 color: black;
-font-family: "Courier New", Courier, monospace;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
  font-size:56px;
  letter-spacing: 4px;
     font-weight: 200;
@@ -63,16 +59,11 @@ font-family: "Courier New", Courier, monospace;
 p{
  font-size:20px;
  letter-spacing: 2px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
 }
 
-p.footer{
- font-size:12px;
-}
 
-li a:hover {
-	background-color: white;
-	opacity: 0;
-}
 #picture {
       width: 300px;
       height: 200px;
@@ -88,10 +79,10 @@ li a:hover {
         -moz-transition-duration: 0.5s;    
         -o-transition-duration: 0.5s;
          overflow: hidden;
-         height: 0px;
+         height: 0px; 
                          }
 #picture:hover .pic_transform {
-          height: 150px;
+          height: 200px;
                           }
 .text_display {
         transform-origin: picture;               
@@ -103,7 +94,7 @@ li a:hover {
         -o-transform-origin: picture;    
         -o-transition-duration: 0.5s;
         font-size: 16px;
-        font-family: Arial;       
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;     
         font-weight: normal;
         text-align:center;
         color: #000000;
@@ -113,4 +104,33 @@ li a:hover {
          color: #000000;   
          height:200px;   
                       }
+                      
+                      
 
+h4 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: bold;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+  font-size: 32px;
+}
+
+#footer{
+    clear: both;
+    border: 1px groove #e6f2ff;
+    background: white;
+    color: black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
