@@ -41,7 +41,7 @@ li a:hover {
 
 h1 {
     color: white;
-    font-size: 500;
+    font-size: 50px;
     font-family: "Verdana",monospace;
     text-align: center;
     top: 50%; bottom: 50%; width: 100%;
@@ -56,7 +56,7 @@ h2{ color: white;
 }
 
 h3 {
-    color: dark gray;
+    color: black;
     font-size: 100;
     text-align: center;
     font-family: "Verdana", monospace;
@@ -65,7 +65,7 @@ h3 {
 }
 
 h4 {
-    color: dark gray;
+    color: black;
     font-size: 100;
     text-align: center;
     font-family: "Verdana", monospace;
@@ -73,19 +73,22 @@ h4 {
 
 }
 h5{
-    color: dark gray;
+    color: black;
     font-size: 100;
     text-align: left;
     font-family: "Verdana", monospace;
     top: 50%; bottom: 50%; width: 100%;
 }
-h6 {color: dark gray;
+h6 {
+    color: black;
     font-size: 200;
     text-align: left;
     font-family: "Verdana", monospace;
-    top: 50%; bottom: 50%; width: 100%; }
+    top: 50%; bottom: 50%; width: 100%;
+    }
+    
 p {
-    color: dark gray;
+    color: black;
     font-size: 100;
     text-align: left;
     font-family: "Verdana", monospace;
@@ -102,16 +105,8 @@ p {
   visibility: visible;
 }
 
-#goals1 {
-  font-size: 100;
-  text-align: left;
-  font-family: "Verdana", monospace;
-  color:black;
-  margin:30px;
-}
 
-#footer
-{
+#footer{
     clear: both;
     border: 1px groove #e6f2ff;
     background: white;
@@ -125,6 +120,7 @@ p {
     bottom: 0px;
     width: 100%;
 }
+
 #carousel-example-generic {
   margin-left:90px;
   margin-right: 90px;
