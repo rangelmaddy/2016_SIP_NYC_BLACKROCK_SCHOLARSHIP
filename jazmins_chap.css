@@ -12,7 +12,7 @@ div.jumbotron {
    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";}
 
 
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,20 +20,21 @@ ul {
     background-color: white;
 }
 
-li {
+li{
     float: left;
 }
 
-li a {
+li a{
     display: block;
     color: black;
     text-align: center;
    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-size: 21px;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover{
     background-color: gray;
     opacity: 0.2
 }
@@ -111,6 +112,11 @@ h4 {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: black;
   font-size: 20px;
+}
+#title {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  font-size: 60px;
 }
 
 h3 {
