@@ -140,3 +140,11 @@ h3 {
     bottom: 0px;
     width: 100%;
 }
+
+
+
+.box{    
+text-align: center;
+color: white;
+     display: inline-block;
+}
