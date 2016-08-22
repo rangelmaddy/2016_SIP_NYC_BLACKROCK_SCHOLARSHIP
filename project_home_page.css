@@ -3,6 +3,7 @@ body {background-color: white}
 
 div.jumbotron {
    width: 100%;
+   height: 575px;
    background-image:url(http://bit.ly/2bGOVmX);/*your background image*/
    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
@@ -46,12 +47,14 @@ h1 {
     top: 50%; bottom: 50%; width: 100%;
 
 }
+
 h2{ color: white;
     font-size: 500;
     font-family: "Verdana",monospace;
     text-align: center;
     top: 50%; bottom: 50%; width: 100%;
 }
+
 h3 {
     color: dark gray;
     font-size: 100;
@@ -87,10 +90,7 @@ p {
     text-align: left;
     font-family: "Verdana", monospace;
     top: 50%; bottom: 50%; width: 100%;
-
 }
-
-
 
 
 .servicesinfo {
@@ -140,4 +140,9 @@ p {
 }
 #brand {
     text-align:center;
-}    
+}  
+
+#carousel_text{
+    color:black;
+    font-family: "Verdana", monospace;
+}

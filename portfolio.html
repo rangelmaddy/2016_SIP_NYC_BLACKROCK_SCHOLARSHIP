@@ -12,7 +12,7 @@
   <style>
 <!------------------------------------------->
 table {
-    font-family: arial, sans-serif;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
@@ -30,7 +30,17 @@ tr:nth-child(even) {
     background-color: #696969;
     color: white;
 }
+<!-------------------------------------------->
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+}
 
+h1 {
+  font-weight: bold;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+}
 <!------------------------------------------->
   body {background-color: white}
 
@@ -83,7 +93,7 @@ div.College {
 div.form-group{
     text-align: left;
 }
-
+/******************************************************/
 ul {
     list-style-type: none;
     margin: 0;
@@ -92,17 +102,15 @@ ul {
     background-color: white;
 }
 
-
-
 li {
     float: left;
 }
 
 li a {
     display: block;
-    color: black
+    color: black;
     text-align: center;
-     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -110,19 +118,38 @@ li a {
 li a:hover {
     background-color: gray;
     opacity: 0.2
+    }
+/********************************************************/
+
+#footer{
+    clear: both;
+    border: 1px groove #e6f2ff;
+    background: white;
+    color: black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
 }
 
 </style>
 </head>
 <body>
 
-   <ul >
-      <li><a class="Home" href="#home">Home</a></li>
-      <li><a href="#Scholarship">Scholarship</a></li>
-      <li><a href="#Tips">Tips</a></li>
-      <li><a href="#My Profile">My Profile</a></li>               
-      <!--<li><a href="#">Link 3</a></li>-->
-    </ul>
+            <ul>
+                  <li><a class="Home" href="project_home_page.html">Home</a></li>
+                  <li><a href="jazmins_chap.html">Scholarship</a></li>
+                  <li><a href="tips.html">Tips</a></li>
+                  <li><a href="maddy_portfolio.html">My Profile</a></li>
+                  <li><a href="#Stories">Stories</a></li>
+            </ul>
+
+
 <!---------------------------------------------------------------------------------------------------------->
     <div class="jumbotron">
       <div class="container text-center">
@@ -264,7 +291,6 @@ li a:hover {
     <div class="InProgress">
     <div class="container text-center">
     <h1>In Progress</h1>      
-    <p>Some text that represents "Me"...</p>
     <div class="panel-group">
     <div class="panel panel-default">
     <div class="panel-heading">
@@ -315,7 +341,6 @@ li a:hover {
      <div class="Completed">
      <div class="container text-center">
         <h1>Completed</h1>      
-        <p>Some text that represents "Me"...</p>
      </div>
      <br>
      <br>
@@ -354,13 +379,12 @@ li a:hover {
 <!------------------------------------------------------------------------------------------->
  <div class="College">
     <div class="container text-center">
-    <h1>My Profile</h1>      
-    <p>Some text that represents "Me"...</p>
+    <h1>College</h1>      
     <div class="panel-group">
     <div class="panel panel-default">
     <div class="panel-heading">
     <h4 class="panel-title">
-        <a data-toggle="collapse" href="#college">My Information</a>
+        <a data-toggle="collapse" href="#college">College</a>
     </h4>
     </div>
     <div id="college" class="panel-collapse collapse">
@@ -413,9 +437,55 @@ li a:hover {
 </div>
 
 <!---------------------------------------------------------------------------------------------------------->
+
+<!--footer-->
+<div class = "footer" id = "footer">
+    <div class="w3-container">
+		<table style="width:20%" align = "center">
+  <tr>
+
+<td><a href="http://www.facebook.com">
+<img border="0" alt="Facebook" src="http://bit.ly/2byKZBH" width="50" height="50" >
+</a></td>
+
+<td><a href="http://www.twitter.com">
+<img border="0" alt="Twitter" src="http://bit.ly/2aZJmu3" width="50" height="50">
+</a></td>
+
+<td><a href="http://www.youtube.com">
+<img border="0" alt="Youtube" src="http://bit.ly/2b1FcVD " width="50" height="50">
+</a></td>
+
+<td><a href="http://www.linkedin.com">
+<img border="0" alt="Linkedin" src="http://bit.ly/2bye5Qz" width="50" height="50">
+</a></td>
+
+<td><a href="http://www.instagram.com">
+<img border="0" alt="Instagram" src="http://bit.ly/2bdjhLJ" width="50" height="50">
+</a></td>
+
+<td><a href="https://plus.google.com">
+<img border="0" alt="Google Plus" src="http://bit.ly/2bsWcSU " width="50" height="50">
+</a></td>
+
+  </tr>
+</table>
+
+<p id = "brand">© 2016 GYST.inc All rights reserved.</p>
+    </div>
+  </div>
+<!--footer-->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------->
+
 </body>
 </html>
 <script>
+alert("Under Construction!!!");
+
     function AddScholarship() {
          var addname=prompt("Scholarship Name:");
          var adddate=prompt("Due Date:");
