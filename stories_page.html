@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+              <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+              <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+   <style>
+
+   div.jumbotron {
+       width: 100%;
+       height: 575px;
+       background-image:url(http://bit.ly/2bGOVmX);/*your background image*/
+       background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+       background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+       /*css hack for ie*/
+       filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+       -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+     }
+
+    #footer{
+        clear: both;
+        border: 1px groove #e6f2ff;
+        background: white;
+        color: black;
+        padding: 0;
+        text-align: center;
+        vertical-align: middle;
+        line-height: normal;
+        margin: 0;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .list_nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .list_nav li {
+        float: left;
+    }
+
+    .list_nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+       font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .list_nav li a:hover {
+        background-color: gray;
+        opacity: 0.2
+    }
+    #story_title {
+      color:white;
+    }
+    #story_title2 {
+      color:white;
+      font-size:20px;
+      text-transform: uppercase;
+    }
+    hr {
+       display: block;
+       position: relative;
+       padding: 3;
+       margin: 8px auto;
+       height: 0;
+       width: 80%;
+       max-height: 0;
+       font-size: 1px;
+       line-height: 0;
+       clear: both;
+       border: none;
+       border-top: 1px solid #aaaaaa;
+       border-bottom: 1px solid #ffffff;
+    }
+    #submit {
+      font-size: 40px;
+      font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+      line-height: 26.4px;
+
+    }
+    body {
+      background-color: #e6f2ff;
+    }
+    span {
+      margin-left:20px;
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+      line-height: 26.4px;
+    }
+    textarea {
+
+    width: 80%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    input {
+      padding: 6px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      margin-left: 140px;
+      width: 80%;
+      position: absolute;
+    }
+    .container {
+      width: 30%;
+    }
+    #user_name {
+      margin-left: 30px;
+      margin-right: 50px;
+      word-wrap: break-word;
+      background-color:#e6f2ff ;
+    }
+   </style>
+  </head>
+  <body>
+
+                <ul class = "list_nav">
+                      <li><a class="Home" href="project_home_page.html">Home</a></li>
+                      <li><a href="jazmins_chap.html">Scholarships</a></li>
+                      <li><a href="tips.html">Tips</a></li>
+                      <li><a href="portfolio.html">My Profile</a></li>
+                      <li><a href="stories_page.html">Stories</a></li>
+
+
+                      <!--<li><a href="#">Link 3</a></li>-->
+                </ul>
+
+
+
+            <div class="jumbotron text-center">
+            <br>
+            <br>
+            <br>
+                <h1 align = "center" id = "story_title" >Stories and Guidance</h1><br><br>
+                <h4 align = "center" id = "story_title2" > We've already told you what we know about the scholarship application process,<br>but read to learn about other's experiences and advice they can share.</h4>
+
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                </div>
+
+
+
+
+
+    <h3 align = "center" id = "submit">Submit Story or Advice Here</h3>
+    <hr><br><br>
+    <span>Name/Scholarship Name/Story Title: </span><br><br>
+    <input id="name" type="text" size="30">
+    <br>
+    <br>
+    <span>Story/Scholarship Description: </span><br><br>
+    <textarea id="task" type="text" size="30"></textarea><br>
+<div class = "container">
+    <button id="addUsern" class="btn btn-info btn-block">Add</button>
+</div>
+<br><br><br>
+<h3 align = "center" id = "submit">Submitted Stories</h3>
+<hr><br><br>
+    <div id="user_name"></div>
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>  <br><br><br><br><br><br><br><br><br><br>
+
+
+
+<!--footer-->
+<div class = "footer" id = "footer">
+    <div class="w3-container">
+		<table style="width:20%" align = "center">
+  <tr>
+
+<td><a href="http://www.facebook.com">
+<img border="0" alt="Facebook" src="http://bit.ly/2byKZBH" width="50" height="50" >
+</a></td>
+
+<td><a href="http://www.twitter.com">
+<img border="0" alt="Twitter" src="http://bit.ly/2aZJmu3" width="50" height="50">
+</a></td>
+
+<td><a href="http://www.youtube.com">
+<img border="0" alt="Youtube" src="http://bit.ly/2b1FcVD " width="50" height="50">
+</a></td>
+
+<td><a href="http://www.linkedin.com">
+<img border="0" alt="Linkedin" src="http://bit.ly/2bye5Qz" width="50" height="50">
+</a></td>
+
+<td><a href="http://www.instagram.com">
+<img border="0" alt="Instagram" src="http://bit.ly/2bdjhLJ" width="50" height="50">
+</a></td>
+
+<td><a href="https://plus.google.com">
+<img border="0" alt="Google Plus" src="http://bit.ly/2bsWcSU " width="50" height="50">
+</a></td>
+
+  </tr>
+</table>
+
+<p id = "brand">© 2016 GYST.inc All rights reserved.</p>
+    </div>
+  </div>
+<!--footer-->
+
+    <script src="stories_page.js"></script>
+  </body>
+</html>
