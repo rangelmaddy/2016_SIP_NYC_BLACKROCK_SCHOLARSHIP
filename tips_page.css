@@ -1,21 +1,12 @@
-h2.sections {
-    margin-left: 25px;
-    font-size:25px;
-    font-family: Century Gothic, sans-serif;
-    font-style:normal
-}
-head {
-    font-size:40px;
-    font-family: Century Gothic, sans-serif;
-    font-style: normal;
-}
-li.points {
-    margin-left: 50px;
-    font-size:15px;
-    font-family: Century Gothic, sans-serif;
-    font-style: normal;
-}
 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#nav_size {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,8 +18,6 @@ li {
     float: left;
 }
 
-
-
 li a {
     display: block;
     color: black;
@@ -36,12 +25,35 @@ li a {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 21px;
+
 }
 
 li a:hover {
     background-color: gray;
-    opacity: 0.2
+    opacity: 0.2;
 }
+
+h2.sections {
+    margin-left: 25px;
+    font-size:25px;
+    font-family: Century Gothic, sans-serif;
+    font-style:normal
+}
+
+head {
+    font-size:40px;
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+}
+
+li.points {
+    margin-left: 50px;
+    font-size:15px;
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+}
+
 #container1111 {
     margin-left: 10px;
     margin-right: 10px;
@@ -116,10 +128,8 @@ h2 {
    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
    }
-#nav_size {
-    font-size: 21px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
+
+
 #tips_title {
     font-size: 20000 px;
     color: white;
@@ -128,3 +138,4 @@ h2 {
     font-size: 60 px;
     color: white;
 }
+
