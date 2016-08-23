@@ -1,17 +1,5 @@
 body {background-color: white}
 
-
-div.jumbotron {
-   width: 100%;
-   height: 575px;
-   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
-   /*css hack for ie*/
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";}
-
-
 ul.nav {
     list-style-type: none;
     margin: 0;
@@ -28,32 +16,33 @@ li a{
     display: block;
     color: black;
     text-align: center;
-   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-   font-size: 21px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 21px;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover{
     background-color: gray;
-    opacity: 0.2
+    opacity: 0.2;
 }
+
+
+div.jumbotron {
+   width: 100%;
+   height: 575px;
+   background-image:url(http://bit.ly/2bGOVmX);/*your background image*/
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+   /*css hack for ie*/
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";}
 
 
 
 li.websites {
     color:black;
     font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
-}
-
-
-h1.first_title{
-color: black;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
- font-size:56px;
- letter-spacing: 4px;
-    font-weight: 200;
 }
 
 
@@ -64,6 +53,9 @@ p{
 
 }
 
+#footer_text {
+    font-size:12px;
+}
 
 #picture {
       width: 300px;
