@@ -8,24 +8,7 @@ ul.nav {
     background-color: white;
 }
 
-li{
-    float: left;
-}
 
-li a{
-    display: block;
-    color: black;
-    text-align: center;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 21px;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover{
-    background-color: gray;
-    opacity: 0.2;
-}
 
 
 div.jumbotron {
