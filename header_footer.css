@@ -15,7 +15,7 @@
 
 
 
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,11 +23,11 @@ ul {
     background-color: white;
 }
 
-li {
+.nav li {
     float: left;
 }
 
-li a {
+.nav li a {
     display: block;
     color: black;
     text-align: center;
@@ -37,18 +37,12 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.nav li a:hover {
     background-color: gray;
     opacity: 0.2
 }
 
-#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
+
 
 #sizing {
 
@@ -79,5 +73,10 @@ li a:hover {
     text-align: center;
     vertical-align: middle;
     
+    
+}
+#none{
+    
+   display: none
     
 }

@@ -85,3 +85,5 @@ function showUsern() {
 document.getElementById('addUsern').addEventListener('click', addUsern);
 
 showUsern();
+
+localStorage.clear();

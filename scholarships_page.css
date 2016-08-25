@@ -7,7 +7,32 @@ ul.nav {
     overflow: hidden;
     background-color: white;
 }
+.box2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
 
+.box li {
+    float: left;
+}
+
+.box li a {
+    display: block;
+    color: black;
+    text-align: center;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.box li a:hover {
+    background-color: gray;
+    opacity: 0.2
+}
 
 
 
@@ -117,8 +142,9 @@ h3 {
 
 
 
-.box{    
+.box2 ul{    
 text-align: center;
 color: white;
-     display: inline-block;
+ display: inline-block;
+ list-style-type: none;
 }
